@@ -1,19 +1,21 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Opdracht 1</title>
+	<title>Opdracht 2</title>
 </head>
 <body>
 <?php 
 
 	$sum = 0;
+	$count = 1;
 
-	foreach (range(1, 20) as $i) {
-		$sum += $i; 
+	while ($count <= 20) {
+		$sum += $count;
+		$count += 1;
 	}
 
 	echo "Som: ${sum}";
-
+	
  ?>
 </body>
 </html>
